@@ -1,2 +1,32 @@
-Coloque aqui suas instruções ou comentários que ache útil/relevantes para possamos ler 
-quando estivermos avaliando a sua solução
+Presunções:
+- Java8 e maven estão instalados e configurados corretamente;
+- O programa contempla apenas resolver o problema proposto, sem adição de funcionalidades;
+- O resultado não será armazenado em banco de dados e será impresso no sdtout no formato JSON;
+- Listas vazias não serão impressas no JSON.
+
+
+Instruções:
+- Baixe o código para um diretório em seu computador;
+- CD no diretório do código baixado;
+- Para rodar apenas os testes utilize o comando "mvn test"
+
+Compilando e rodando o programa
+- Certifique-se de que vc está no diretório raiz do projeto;
+- Execute o comando "mvn clean package" para gerar o .jar;
+- Para rodar o programa utilize o comando "java -jar target/PreDojo-0.1.0-SNAPSHOT-jar-with-dependencies.jar CAMINHO/PARA/ARQUIVO.TXT".
+
+Caso você não possua um arquivo grande para os testes, foi entregue junto um programa para gerar o log da partida. Para executá-lo:
+- Certifique-se de que vc está no diretório raiz do projeto;
+- Certifique-se de que você rodou o comando "mvn clean package" anteriormente;
+- Para gerar um log de partida execute o comando "java -cp target/classes com.hotmail.pep_br.amil.dojo.helper.DojoLogGenerator"
+- Para processar o arquivo gerado utilize o comando "java -jar target/PreDojo-0.1.0-SNAPSHOT-jar-with-dependencies.jar target/classes/real-match-data.txt".
+
+Customizando o gerador de log de partida
+- O gerador de logs está na classe com.hotmail.pep_br.amil.dojo.helper.DojoLogGenerator;
+- Abaixo segue a descrição das propriedades que configuram o gerador:
+    * String WORLD - define a constante <WORLD> para identificar as mortes ocorridas por armadilhas no mapa;
+    * String[] players - Vetor contendo os nomes possíveis dos jogadores. Não esquecer de incluir como parte do vetor a constante WORLD;
+    * String[] guns - Nomes das armas disponíveis na partida;
+    * String[] worldKills - Nomes dos tipos de mortes possíveis ocorridas no WORLD;
+    * String cannotDie - Jogador que não vai morrer durante a partida, para testar o troféu IMMORTAL;
+    * int matchDurationInMinutes - Duração da partida em minutos. Quanto mais longa a partida, maior o log gerado.

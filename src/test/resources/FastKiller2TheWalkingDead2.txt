@@ -1,0 +1,17 @@
+23/04/2013 15:36:04 - Roman killed Nick using MAGNUM 765
+23/04/2013 15:36:14 - Roman killed Nick using M16
+23/04/2013 15:36:24 - Roman killed Jack using M16
+23/04/2013 15:36:34 - Roman killed Jack using M16
+23/04/2013 15:36:44 - Roman killed Jack using M16
+23/04/2013 15:37:04 - <WORLD> killed Roman by DROWN
+23/04/2013 15:37:14 - <WORLD> killed Roman by DROWN
+23/04/2013 15:37:24 - Nick killed Roman using AK47
+23/04/2013 15:37:34 - <WORLD> killed Roman by DROWN
+23/04/2013 15:37:44 - <WORLD> killed Roman by DROWN
+23/04/2013 15:38:04 - Roman killed Jack using M16
+23/04/2013 15:38:14 - Roman killed Jack using M16
+23/04/2013 15:38:24 - Roman killed Nick using M16
+23/04/2013 15:38:34 - Roman killed Nick using M16
+23/04/2013 15:38:44 - Roman killed Nick using M16
+23/04/2013 15:39:24 - Jack killed Nick using KNIFE
+23/04/2013 15:39:44 - Jack killed Nick using KNIFE
